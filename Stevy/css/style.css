@@ -8,7 +8,8 @@ h1{
     font-weight: bolder;
 }
 
-nav,p{
+nav a{
+    text-decoration: none;
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 120%;
 }
@@ -16,18 +17,23 @@ nav,p{
 body{
     background:linear-gradient(to left,	#EBFEFC, #fefefe);
     }
-
+p{
+    text-align: left;
+    font-family: 'Montserrat Subrayada ', sans-serif;
+}
 h2{
     margin: auto;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .texte1{
+    padding-top: 5em;
     float: left;
     font-size: 130%;
     margin-left: 30px;
 }
 .texte2{
+    padding-top: 5em;
     float:right;
     font-size: 150%;
     margin-left: 30px;
@@ -35,10 +41,13 @@ h2{
 }
 .image3{
     float:left;
+    margin-top: auto;
     width: auto;
     height: auto;
 }
 .image2, .image4{
+    display: inline-block;
+    padding-top: 5em;
     float: right;
     width: auto;
     height: auto;

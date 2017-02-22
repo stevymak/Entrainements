@@ -1,0 +1,21 @@
+body{
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+.element1, .element13, .element15{
+    background-color: red;
+}
+.element2, .element5, .element9{
+    background-color: green;
+}
+.element3, .element12, .element10, .element6{
+    background-color: blue;
+}
+.element4, .element7, .element14, .element8, .element11{
+    background-color: pink;
+}
+
+#conteneur{
+    display: flex;
+    justify-content: space-between;
+}
